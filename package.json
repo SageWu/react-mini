@@ -1,0 +1,29 @@
+{
+  "name": "react-mini",
+  "version": "1.0.0",
+  "description": "A mini version of React",
+  "main": "index.js",
+  "repository": "https://github.com/SageWu/react-mini.git",
+  "author": "wxq <972533051@qq.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "node ./script/build.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/eslint-parser": "^7.13.8",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.21.0",
+    "eslint-config-fbjs": "^3.1.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-flowtype": "^5.3.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "rollup": "^2.40.0"
+  }
+}
